@@ -3,12 +3,6 @@ import React from "react";
 
 const projects = [
   {
-    title: "Chrome SEO Extension",
-    description:
-      "A lightweight Chrome extension for analyzing on-page SEO metrics.",
-    videoSrc: "/videos/Chrome ex-seo.mp4",
-  },
-  {
     title: "Company Site",
     description:
       "A modern business website built for showcasing services of company.",
@@ -31,6 +25,12 @@ const projects = [
     description:
       "A stylish landing page for a restaurant brand, featuring menu and contact.",
     videoSrc: "/videos/Restaurant Landing Page.mp4",
+  },
+  {
+    title: "Chrome SEO Extension",
+    description:
+      "A lightweight Chrome extension for analyzing on-page SEO metrics.",
+    videoSrc: "/videos/Chrome ex-seo.mp4",
   },
 ];
 
