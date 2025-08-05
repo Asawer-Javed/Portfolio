@@ -16,18 +16,32 @@ export default function TechStackBox() {
     {
       name: "Tailwind CSS",
       src: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      customSize: 45,
     },
     {
       name: "JavaScript",
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      customSize: 50,
     },
     {
       name: "React",
       src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      customSize: 50,
     },
     {
       name: "Next.js",
       src: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      customSize: 60,
+    },
+    {
+      name: "MongoDB",
+      src: "https://www.svgrepo.com/show/331488/mongodb.svg",
+      customSize: 50,
+    },
+    {
+      name: "GitHub",
+      src: "https://www.svgrepo.com/show/512317/github-142.svg",
+      customSize: 45,
     },
   ];
 
@@ -48,9 +62,9 @@ export default function TechStackBox() {
               <Image
                 src={logo.src}
                 alt={logo.name}
-                width={logo.customSize || 48}
-                height={logo.customSize || 48}
-                className="object-contain"
+                width={logo.customSize}
+                height={logo.customSize}
+                style={{ height: "auto" }}
               />
             </div>
           ))}
