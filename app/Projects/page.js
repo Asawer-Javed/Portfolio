@@ -6,7 +6,7 @@ const projects = [
     title: "Chrome SEO Extension",
     description:
       "A lightweight Chrome extension for analyzing on-page SEO metrics.",
-    videoSrc: "/videos/chrome ex-seo.mp4",
+    videoSrc: "/videos/Chrome ex-seo.mp4",
   },
   {
     title: "Company Site",
